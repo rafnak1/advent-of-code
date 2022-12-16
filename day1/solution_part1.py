@@ -11,7 +11,7 @@ def maximum_amount_of_calories_in_one_inventory(inventory_list: list[list[int]])
 
 if __name__ == '__main__':
     with open("./input.txt") as f:
-        raw_input = f.read()
-    parsed_input = parse_input(raw_input=raw_input)
-    answer = maximum_amount_of_calories_in_one_inventory(inventory_list=parsed_input)
+        raw_input: str = f.read()
+    parsed_input: list[list[int]] = parse_input(raw_input=raw_input)
+    answer: int = maximum_amount_of_calories_in_one_inventory(inventory_list=parsed_input)
     print(f"{answer=}")
