@@ -1,4 +1,4 @@
-import solution_part1, unittest
+import utils, solution_part1, unittest
 
 class TestParseInput(unittest.TestCase):
 
@@ -6,7 +6,7 @@ class TestParseInput(unittest.TestCase):
         with open("test_input.txt") as f:
             raw_input = f.read()
 
-        obtained: list[list[int]] = solution_part1.parse_input(raw_input=raw_input)
+        obtained: list[list[int]] = utils.parse_input(raw_input=raw_input)
 
         expected = [[5,20,30], [20,30], [60]]
         self.assertEqual(obtained, expected)
