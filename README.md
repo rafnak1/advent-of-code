@@ -1,2 +1,2 @@
-# advent-of-code-2022
-My solutions for [Advent of Code 2022](https://adventofcode.com)
+# advent-of-code
+My solutions for [Advent of Code](https://adventofcode.com)
